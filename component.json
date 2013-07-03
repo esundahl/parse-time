@@ -1,0 +1,16 @@
+{
+  "name": "parse-time",
+  "repo": "esundahl/parse-time",
+  "description": "parses and converts human readable time formats",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
