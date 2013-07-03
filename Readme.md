@@ -13,9 +13,9 @@
 
 ## parseTime(timeString, [, format]);
 
-		var parseTime = require('parse-time');
-		parseTime('1min') // => 60
-		parseTime('1hr', 'minutes') // => 60
+	var parseTime = require('parse-time');
+	parseTime('1min') // => 60
+	parseTime('1hr', 'minutes') // => 60
 
 ## License
 
