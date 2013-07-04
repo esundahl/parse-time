@@ -1,5 +1,4 @@
-
-# Time Conversion
+# Parse Time
 
   Simple utility for converting human readable time strings
 
