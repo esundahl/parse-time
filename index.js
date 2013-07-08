@@ -1,7 +1,6 @@
 
 
 
-
 /**
  * parses a human readable time string into the
  * specified format defaulting to seconds.
@@ -34,7 +33,7 @@ module.exports = function parseTime (timeString, format) {
  */
 
 function toSeconds (timeString) {
-	var time = parseInt(timeString);
+	var time = parseInt(timeString, 10);
 	var unit = timeString.match(/[a-z]/)[0];
 	if (unit) {
 		if (unit === 'm') return time * 60;
